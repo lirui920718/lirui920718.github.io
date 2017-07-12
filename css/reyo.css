@@ -1,0 +1,139 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:微软雅黑;
+	font-size:16px;
+	align:center;
+}
+a{
+	text-decoration:none;
+	display:block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.topNav{
+	width:100%;
+	height:45px;
+	background-color: rgb(0,210,12);
+	box-shadow:2px 5px 5px #888888;
+	color:#fff;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	position: fixed;
+}
+.topNav:hover{
+	box-shadow:5px 10px 5px #888888;
+}
+.topNav .logo{
+	float:left;
+	margin-left: 10%;
+	line-height: 45px;
+}
+
+.topNav .nav{
+	float:left;
+	line-height: 45px;
+	
+	
+}
+.topNav .nav:hover .nav2{
+	display: block;
+	box-shadow:2px 5px 5px #888888;
+}
+
+.topNav .nav .nav1 .nav11{
+	float:left;
+	list-style: none;
+	margin-left:20px;
+}
+.topNav .nav .nav2{
+	text-align: center;
+	display: none;
+	margin-left: 10px;
+	position: absolute;
+	z-index: 2;	
+	
+	
+}
+.topNav .nav .nav2 li{
+	border-bottom: 1px solid #f2f2f2;
+	list-style: none;
+	background-color:rgb(0,210,12);
+	letter-spacing: 2px;
+	padding: 5px 20px;
+}
+.topNav .nav a:link{color:#fff;}
+.topNav .nav a:visited{color:#fff;}
+.topNav .nav a:hover{color:yellow;}
+
+.banner{
+	width: 100%;
+	height:45px;
+}
+.container{
+ padding:10px;
+ text-align: center;
+ width: 100%;
+
+
+}
+
+h3{
+	font-size: 16px;
+	font-weight: normal;
+}
+.box{
+	width: 65px;
+	height: 30px;
+	background-color: #f6f6f6;
+	margin:10px 5px;
+	border-radius:10px;
+	padding: 6px 10px;
+	float:left;
+	box-shadow:10px 10px 5px #888888;
+	line-height: 30px;
+	
+}
+
+.like{
+	float:right;
+	margin-top: -50px;
+	margin-right: -20px;
+}
+
+
+
+
+
+.foot{
+	width:100%;
+	height: 45px;
+	background-color:rgb(0,210,12);
+	line-height: 45px;
+	margin-bottom: 0px;
+	color:#fff;
+	float:left;
+
+}
+
+
+.title
+{
+font-size:24px;
+text-shadow:5px 5px 5px #888888;
+
+
+}
+
+a:link{color:blue;}
+a:visited{color:blue;}
+a:hover{color:#fff;background-color:rgb(0,211,12);font-size:110%;}
+a:active{color:yellow;}
